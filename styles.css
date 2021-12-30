@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fffdfd;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 190px;
+  height: 65px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.menu-item {
+  font-family: "Roboto", sans-serif;
+  color: #035755;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.menu-item:first-child {
+  color: #fb4c47;
+  border-bottom: 1px solid #ff4c47;
+}
+
+.menu-item:last-child {
+  color: #ff383d;
+  padding: 10px 30px 10px 30px;
+  border: 2px solid #fb4c47;
+  box-sizing: border-box;
+  border-radius: 46px;
+}
+
+.conteudo {
+  margin-top: 40px;
+}
+
+.secao1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secao1-conteudotexto {
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.secao1-titulo {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 32px;
+  color: #fa5652;
+}
+
+.secao1-subtitulo {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 55px;
+  color: #035755;
+}
+
+.secao1-texto {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #4b4f51;
+  line-height: 190%;
+  width: 550px;
+  text-transform: capitalize;
+}
+
+.secao1-btn {
+  width: 250px;
+  height: 80px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  background-color: #fb4c47;
+  border: 2px solid #fb4c47;
+  border-radius: 65px;
+  cursor: pointer;
+}
+
+.secao1 img {
+  width: 1000px;
+}
+
+.secao2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secao2 img {
+  width: 840px;
+  height: 800px;
+}
+
+.secao2-conteudotexto {
+  margin-right: 70px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.secao2-titulo {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 29px;
+  color: #fa5652;
+}
+
+.secao2-subtitulo {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 50px;
+  color: #035755;
+}
+
+.secao2-texto {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #4b4f51;
+  line-height: 190%;
+  width: 648px;
+  height: 200px;
+  text-transform: capitalize;
+  margin-right: 150px;
+}
+
+.secao2-btn {
+  width: 250px;
+  height: 80px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FA5652;
+  background: rgba(250, 86, 82, 0.15);
+  border: 0px;
+  border-radius: 65px;
+  cursor: pointer;
+}
