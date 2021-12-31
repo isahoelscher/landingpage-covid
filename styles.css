@@ -71,6 +71,7 @@ body {
 .secao1-titulo {
   font-family: "Red Hat Display", sans-serif;
   font-size: 32px;
+  font-weight: 800;
   color: #fa5652;
 }
 
@@ -126,12 +127,14 @@ body {
 
 .secao2-titulo {
   font-family: "Red Hat Display", sans-serif;
+  font-weight: 800;
   font-size: 29px;
   color: #fa5652;
 }
 
 .secao2-subtitulo {
   font-family: "Red Hat Display", sans-serif;
+  font-weight: 800;
   font-size: 50px;
   color: #035755;
 }
@@ -154,9 +157,170 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 600;
-  color: #FA5652;
+  color: #fa5652;
   background: rgba(250, 86, 82, 0.15);
   border: 0px;
   border-radius: 65px;
   cursor: pointer;
+}
+
+.contagion {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.contagiontexto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contagiontitle {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fa5652;
+}
+
+.contagionsubtitle {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-size: 50px;
+  color: #035755;
+}
+
+.contagiontext {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 215%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #4b4f51;
+}
+.contagioncards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 70px;
+}
+
+.card1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+  width: 460px;
+  height: 575px;
+  padding: 30px;
+  box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+  border-bottom: 6px solid #FA5652;
+}
+
+.card1 img {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.card1title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 147%;
+  text-transform: capitalize;
+  margin-top: 10px;
+  color: #035755;
+}
+
+.card1text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 185%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #4b4f51;
+}
+
+.card2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+  width: 460px;
+  height: 575px;
+  box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+}
+
+.card2 img {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.card2title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 147%;
+  text-transform: capitalize;
+  color: #035755;
+}
+
+.card2text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 185%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #4b4f51;
+}
+
+.card3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+  width: 460px;
+  height: 575px;
+  box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+}
+
+.card3 img {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.card3title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 147%;
+  text-transform: capitalize;
+  margin-top: 10px;
+  color: #035755;
+}
+
+.card3text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 185%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #4b4f51;
 }
