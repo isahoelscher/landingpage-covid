@@ -7,9 +7,14 @@
 }
 
 body {
-width: 100vw;
-background: rgb(255,241,241);
-background: linear-gradient(0deg, rgba(255,241,241,1) 0%, rgba(255,255,255,1) 51%, rgba(255,241,241,1) 100%);
+  width: 100vw;
+  background: rgb(255, 241, 241);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 241, 241, 1) 0%,
+    rgba(255, 255, 255, 1) 51%,
+    rgba(255, 241, 241, 1) 100%
+  );
 }
 
 .cabecalho {
@@ -223,7 +228,7 @@ background: linear-gradient(0deg, rgba(255,241,241,1) 0%, rgba(255,255,255,1) 51
   padding: 30px;
   box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
   border-radius: 10px;
-  border-bottom: 6px solid #FA5652;
+  border-bottom: 6px solid #fa5652;
 }
 
 .card1 img {
@@ -232,7 +237,7 @@ background: linear-gradient(0deg, rgba(255,241,241,1) 0%, rgba(255,255,255,1) 51
 }
 
 .card1title {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -243,7 +248,7 @@ background: linear-gradient(0deg, rgba(255,241,241,1) 0%, rgba(255,255,255,1) 51
 }
 
 .card1text {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -271,7 +276,7 @@ background: linear-gradient(0deg, rgba(255,241,241,1) 0%, rgba(255,255,255,1) 51
 }
 
 .card2title {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -281,7 +286,7 @@ background: linear-gradient(0deg, rgba(255,241,241,1) 0%, rgba(255,255,255,1) 51
 }
 
 .card2text {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -309,7 +314,7 @@ background: linear-gradient(0deg, rgba(255,241,241,1) 0%, rgba(255,255,255,1) 51
 }
 
 .card3title {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -320,7 +325,7 @@ background: linear-gradient(0deg, rgba(255,241,241,1) 0%, rgba(255,255,255,1) 51
 }
 
 .card3text {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -365,4 +370,267 @@ background: linear-gradient(0deg, rgba(255,241,241,1) 0%, rgba(255,255,255,1) 51
   text-align: center;
   text-transform: capitalize;
   color: #4b4f51;
+}
+
+.recommendations {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.recommendationstextbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.recommendationstitle {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fa5652;
+}
+
+.recommendationssubtitle {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-size: 50px;
+  color: #035755;
+}
+
+.recommendationstext {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 215%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #4b4f51;
+}
+
+.wearmask {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 100px;
+  margin-top: 60px;
+}
+
+.wearmask .number {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  color: #fa5652;
+  background-color: #fee6e5;
+  border: 3px solid #fee6e5;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.wearmasktextbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.wearmasktextbox .title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 47px;
+  text-transform: capitalize;
+  color: #035755;
+}
+
+.topic1text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  width: 532px;
+  height: 160px;
+  line-height: 221%;
+  text-transform: capitalize;
+  color: #4b4f51;
+}
+
+.wearmask img {
+width: 555.65px;
+height: 574.98px;
+}
+
+.washhands {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  gap: 100px;
+  margin-top: 60px;
+}
+
+.washhands .number {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 145%;
+  color: #fa5652;
+  background-color: #fee6e5;
+  border: 3px solid #fee6e5;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.washhandstextbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.washhandstextbox .title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 147%;
+  text-transform: capitalize;
+  color: #035755;
+  gap: 20px;
+}
+
+.topic2text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  width: 532px;
+  height: 160px;
+  line-height: 221%;
+  text-transform: capitalize;
+  color: #4b4f51;
+}
+
+.washhands img {
+width: 555.65px;
+height: 574.98px;
+}
+
+.noserag {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+  margin-top: 60px;
+}
+
+.noserag .number {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 145%;
+  color: #fa5652;
+  background-color: #fee6e5;
+  border: 3px solid #fee6e5;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.noseragtextbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.noseragtextbox .title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 147%;
+  text-transform: capitalize;
+  color: #035755;
+  gap: 20px;
+}
+
+.topic3text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  width: 532px;
+  height: 160px;
+  line-height: 221%;
+  text-transform: capitalize;
+  color: #4b4f51;
+}
+
+.noserag img {
+width: 555.65px;
+height: 574.98px;
+}
+
+.avoidcontacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  gap: 100px;
+  margin-top: 60px;
+}
+
+.avoidcontacts .number {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 145%;
+  color: #fa5652;
+  background-color: #fee6e5;
+  border: 3px solid #fee6e5;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.avoidcontactstextbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.avoidcontactstextbox .title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 147%;
+  text-transform: capitalize;
+  color: #035755;
+  gap: 20px;
+}
+
+.topic4text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  width: 532px;
+  height: 160px;
+  line-height: 221%;
+  text-transform: capitalize;
+  color: #4b4f51;
+}
+
+.avoidcontacts img {
+width: 555.65px;
+height: 574.98px;
 }
