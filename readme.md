@@ -4,4 +4,4 @@
 
 - O principal objetivo dessa landing page estática foi principalmente treinar os posicionamentos utilizando flexbox. 
 
-## Você pode conferir o resultado clicando [aqui]() :sparkles:
+## Você pode conferir o resultado clicando [aqui](covidlandingpage.netlify.app) :sparkles:
