@@ -420,7 +420,7 @@ body {
 }
 
 .wearmask .number {
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Display";
   font-style: normal;
   font-weight: bold;
   font-size: 44px;
@@ -440,7 +440,7 @@ body {
 }
 
 .wearmasktextbox .title {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 47px;
@@ -449,7 +449,7 @@ body {
 }
 
 .topic1text {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -461,8 +461,8 @@ body {
 }
 
 .wearmask img {
-width: 555.65px;
-height: 574.98px;
+  width: 555.65px;
+  height: 574.98px;
 }
 
 .washhands {
@@ -475,7 +475,7 @@ height: 574.98px;
 }
 
 .washhands .number {
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Display";
   font-style: normal;
   font-weight: bold;
   font-size: 44px;
@@ -495,7 +495,7 @@ height: 574.98px;
 }
 
 .washhandstextbox .title {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 47px;
@@ -506,7 +506,7 @@ height: 574.98px;
 }
 
 .topic2text {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -518,8 +518,8 @@ height: 574.98px;
 }
 
 .washhands img {
-width: 555.65px;
-height: 574.98px;
+  width: 555.65px;
+  height: 574.98px;
 }
 
 .noserag {
@@ -531,7 +531,7 @@ height: 574.98px;
 }
 
 .noserag .number {
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Display";
   font-style: normal;
   font-weight: bold;
   font-size: 44px;
@@ -551,7 +551,7 @@ height: 574.98px;
 }
 
 .noseragtextbox .title {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 47px;
@@ -562,7 +562,7 @@ height: 574.98px;
 }
 
 .topic3text {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -574,8 +574,8 @@ height: 574.98px;
 }
 
 .noserag img {
-width: 555.65px;
-height: 574.98px;
+  width: 555.65px;
+  height: 574.98px;
 }
 
 .avoidcontacts {
@@ -588,7 +588,7 @@ height: 574.98px;
 }
 
 .avoidcontacts .number {
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Display";
   font-style: normal;
   font-weight: bold;
   font-size: 44px;
@@ -608,7 +608,7 @@ height: 574.98px;
 }
 
 .avoidcontactstextbox .title {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 47px;
@@ -619,7 +619,7 @@ height: 574.98px;
 }
 
 .topic4text {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -631,6 +631,96 @@ height: 574.98px;
 }
 
 .avoidcontacts img {
-width: 555.65px;
-height: 574.98px;
+  width: 555.65px;
+  height: 574.98px;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.subtext {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #0c6c44;
+  margin-bottom: 40px;
+}
+
+.email {
+  position: relative;
+  width: 790px;
+}
+.emailinput {
+  width: 790px;
+  height: 114px;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  padding: 10px 100px 10px 20px;
+  line-height: 1;
+  outline: none;
+  background: #ffffff;
+  box-shadow: 0px 8px 80px rgba(0, 0, 0, 0.06);
+}
+.emailbtn {
+  width: 209px;
+  height: 90px;
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  bottom: 3px;
+  border: 0;
+  background: #f44a45;
+  color: #fff;
+  outline: none;
+  padding: 40px;
+  border-radius: 100px;
+  z-index: 2;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.footer {
+  margin-top: 150px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.footer-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  color: #00402e;
+  cursor: pointer;
+}
+
+.credits {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  color: #415e56;
 }
